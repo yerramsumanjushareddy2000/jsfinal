@@ -1,0 +1,71 @@
+.header{
+	background-color:#85dce0;
+	padding:10px 10px 10px 5px;
+	color:#fff;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+.fa-graduation-cap{
+	margin-top:5px;
+	font-size:150%;
+}
+.fa-close{
+	margin-top:5px;
+	font-size:150%;
+}
+.form-group{
+  position: relative;
+  margin-bottom:15px;
+  margin-left:30px;
+  margin-right:40px;
+}
+.form-control{
+  width:100%;
+  height:40px;
+  padding:5px 7px 5px 15px;
+  background:#fff;
+  color:#666;
+  border:2px solid #ddd;
+  @include border-radius(4px);
+    &:focus, &:focus + .fa{
+      border-color:#10CE88;
+      color:#10CE88;
+    }
+}
+.form-group .fa{
+  position: absolute;
+  right:20px;
+  top:12px;
+  color:#999;
+}
+
+.btn{
+	width:95%;
+	margin-left:30px;
+	margin-right:30px;
+	margin-top:10px;
+	margin-bottom:10px;
+	color:#fff;
+}
+.sign-in{
+	background-color:#85dce0;
+	border:None;
+	font-weight:bold;
+}
+.or{
+	color:#c0c0c0;
+	font-weight:bold;
+}
+.btn-fb{
+	background-color:#3b5998;
+}
+.btn-google{
+	background-color:#dd4b39;
+}
+.epam{
+	background-color:#c6ff1a;
+	border:None;
+	font-weight:bold;
+}
